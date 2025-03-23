@@ -6,7 +6,7 @@ jobs:
    name : run python
    runs-on: runs-on:ubuntu-latest  
    steps:
-- uses: action/checkout@v2
--name: Run python
- run: 
+  - uses: action/checkout@v2
+  -name: Run python
+   run: 
      python3  a0323.py
